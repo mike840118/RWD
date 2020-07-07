@@ -1,0 +1,507 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+}
+
+.wrapper {
+    max-width: 960px;
+    /* height: 200vh; */
+    background: white;
+    margin: auto;
+}
+
+.wrapper .box1 li {
+    width: 80px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.wrapper .box1 li a {
+
+
+    text-decoration: none;
+    display: block;
+}
+
+
+.icon {
+    padding: 0 0 0 10px;
+}
+
+.box1 {
+    padding: 40px 0 0 0;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.box1 a:hover {
+    transition: 1s;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+
+.box2 {
+    padding: 40px 0 0 4%;
+    margin: 10px;
+
+}
+
+.wrapper .box2 li {
+
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+    transition: .5s;
+}
+
+.wrapper .box2 a {
+    display: block;
+    text-decoration: none;
+
+}
+
+.box2 a:hover {
+    transition: 1s;
+    background: rgba(0, 0, 0, .5);
+}
+
+.fig {
+    margin: 0px auto;
+}
+.menu{
+    width:50px;
+    top:0;
+    right: 0;
+  display: none;
+    
+}
+/* 第二個div */
+.list-background {
+    background: url(images/3425_14.jpg) center center no-repeat;
+    width: calc(100% - 20px);
+    height: 300px;
+    margin: 10px 0 0 10px;
+}
+
+nav .svg {
+    width: 120px;
+}
+/* .list-center{
+left:300px;
+top:100px;
+} */
+.back {
+    /* background: lightblue; */
+    text-align: center;
+}
+
+.lable {
+    /* background: red; */
+    border: 1px solid pink;
+    /* padding: 10px; */
+}
+.border-line1{
+    border:1px solid red;
+    width:350px;
+    margin:0px auto;
+}
+.button-inline{
+    display:none;
+    border:1px solid red;
+    width:350px;
+}
+.button-inline button{
+    background:red;
+    width:100%;
+    border:1px solid red;
+}
+.lable3{
+    width:100%;
+}
+
+
+
+
+/* 第三個main */
+.list-background2 {
+    background: url(pics_1129/bg_icon.png) center center no-repeat;
+    width: calc(100% - 20px);
+    margin: 0 0 0 10px;
+}
+.list-text {
+    text-align: center;
+    color: white;
+}
+
+
+.width-3p {
+    width: 33%;
+    margin: 20px auto;
+}
+
+.font-size {
+    /* font-size: 12px; */
+    height: 0px;
+}
+
+/* 圖片3 */
+.border-buttom1 {
+    display: flex;
+    position: relative;
+    height: 20px;
+    width: 100%;
+
+}
+.d-none{
+    display:none;
+}
+.box4 img{
+    border-radius: 50%;
+    margin:0px ;
+    width:300px;
+    
+}
+/* 第四個 div */
+/* .pict2 img {
+    width: 100px;
+} */
+.images{
+    display: flex;
+    justify-content: center;
+}
+.picture-1{
+    display: flex;
+}
+.images img {
+    width: 170px;
+    object-fit: cover;
+}
+.list-padding img {
+    padding: 10px;
+    width: 100%;
+    /* border:1px solid red; */
+
+}
+/* 圖片區域 背景圖1 */
+.text {
+    background: seashell;
+    max-width: 960px;
+    height: 300px;
+    margin: 10px;
+}
+.picture-2{
+    width:250px;
+}
+.border-buttom {
+    display: flex;
+    position: relative;
+    height: 20px;
+    width: 100%;
+
+}
+
+.border-buttom p {
+    border-bottom: 5px solid wheat;
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    top:5px;
+}
+.list-text2 {
+    position: relative;
+    border: 1px solid #FFB3FF;
+    width: 100px;
+    bottom: 30%;
+    left: 20%;
+    color: lightblue;
+    font-size: 18px;
+}
+
+
+/* 圖片區域 背景圖2 */
+.background-picture {
+    background: url(images/slide1.jpg)center center no-repeat;
+    width: calc(100% - 20px);
+    height: 300px;
+    margin: 0 0 0 10px;
+}
+
+.border-line {
+    border-right: 4px dashed white;
+    height: 150px;
+}
+.list-text2 {
+    position: relative;
+    border: 1px solid #FFB3FF;
+    width: 100px;
+    bottom: 30%;
+    left: 50px;
+    color: lightblue;
+    font-size: 18px;
+}
+
+.button5{
+    display:none;
+}
+
+
+
+
+.background {
+    background: white;
+    height: 100%;
+    margin: 0;
+}
+
+/* .d-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "div div"
+        "main main";
+    text-align: left;
+
+} */
+
+
+.box3 {
+    position: absolute;
+}
+
+
+
+.button2 {
+    height: 20px;
+    float: right;
+}
+
+.border123 {
+    border-right: 1px solid red;
+    height: 100%;
+}
+
+/* table tr {
+    border: 1px solid red;
+    height: 50px;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 0px auto;
+width:50%;
+} */
+
+.border321 {
+    border: 0.5px solid red;
+    width: 0px;
+    margin: 0px auto;
+    height: 20px;
+
+}
+.button4 button{
+    display: inline-block;
+}
+.images img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.footer-background {
+    max-width: 960px;
+    margin: 0 auto;
+    background: lightblue;
+}
+
+
+.footer-background figure {
+    margin: 0px auto;
+}
+
+.footer-background button {
+    font-size: 12px;
+}
+
+.footer2 {
+    width: 200px;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.position-re {
+    position: relative;
+}
+
+.position-ab {
+    position: absolute;
+}
+
+.d-block {
+    display: block;
+}
+
+.text-align {
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .button{
+    display:none;
+}
+.button-inline{
+    display:inline-block;
+}
+    .fig .pict {
+        display: none;
+    }
+
+    .box2 {
+        display: none;
+    }
+    .menu{
+        display: inline;
+        margin:0;
+    }
+    .pict2 img{
+        width:150px;
+
+    }
+   
+    .box1 {
+        display: none;
+    }
+
+    .pict2 .abc {
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+    }
+
+    .list-background2 {
+        background: black;
+    }
+
+    .pict3 .abc img{
+        display: inline-block;
+        
+
+    }
+   
+
+    main .list1 {
+        display: inline;
+    }
+    
+    .width-3p {
+        height: 200px;
+        margin: 0 auto;
+    }
+    .images{
+        display: inline-block;
+       
+    }
+    .picture-1{
+        display:flex;
+        
+    }
+    .border-line{
+        border:1px solid transparent;
+    }
+    .picture-2{
+        width:200px;
+    }
+    .d-open{
+        display:inline;
+        /* text-align: center; */
+        
+    }
+    .border-line2{
+        display: inline;
+    }
+    .background-picture{
+        height: 500px;
+    }
+    .footer-background{
+        display:inline-block;
+        width:100%;
+        
+    }
+    .footer2{
+width:90%;
+    }
+    footer div{
+        width:50%;
+    }
+    .button3{
+        width:100%;
+        text-align: center;
+    
+    }
+    .button3 img{
+        width:50%;
+    }
+    .img-01{
+        width:50%;
+    }
+    .pitcure-001{
+        width:50%;
+    }
+    .border-line2 h1{
+font-size: 50px;
+    }
+    .button4 button{
+        display: none;
+    }
+    .button5{
+        display:inline-block;
+        margin:0 10px  0 0;
+    }
+    .button5 button{
+       width:100px;
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+    .icon {
+        width: 200px;
+        height: 50%;
+    }
+    .border-line1{
+        
+        width:240px;
+        
+    }
+    .button-inline{
+        
+        
+        width:240px;
+    }
+    .list-text2 {
+        position: relative;
+        border: 1px solid #FFB3FF;
+        width: 100px;
+        bottom: 0%;
+        left: 20%;
+    }
+    
+}
